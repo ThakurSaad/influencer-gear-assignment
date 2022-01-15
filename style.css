@@ -10,7 +10,9 @@
 body {
     /* margin: 0 auto; */
     font-family: 'Poppins', sans-serif;
+
     border: 1px solid;
+    
 }
 button {
     border: none;
@@ -42,8 +44,9 @@ header {
     grid-column-gap: 100px;
     align-items: center;
     justify-items: center;
-    
+
     border: 1px dashed;
+
 }
 .header-title {
     font-size: 50px;
@@ -56,6 +59,7 @@ header {
     opacity: .8;
 
     border: 1px dashed;
+
 }
 button {
     margin-top: 20px;
@@ -128,9 +132,10 @@ main {
     font-size: 14px;
 }
 .more-products {
-    text-align: end;
     color: #E02C6DDE;
     margin-top: 50px;
+    text-align: end;
+    padding-right: 10px;
 }
 /* ----------------------
     custom helpline (bonus)
@@ -144,6 +149,7 @@ main {
     margin-top: 100px;
 
     border: 1px dashed;
+
 }
 .custom img {
     max-width:100%
@@ -221,9 +227,6 @@ footer {
     .products {
         grid-template-columns: repeat(1, 1fr);
     }
-    .more-products {
-        text-align: center;
-    }
     /* custom helpline  */
     .custom-helpline {
         grid-template-columns: repeat(1, 1fr);
@@ -233,7 +236,7 @@ footer {
         margin-top: 0px;
     }    
     /* -----------
-        footer 
+    footer 
     ------------ */
     footer {
         width: 100%;
