@@ -9,9 +9,6 @@
 body {
     /* margin: 0 auto; */
     font-family: 'Poppins', sans-serif;
-
-    /* border: 1px solid; */
-    
 }
 button {
     border: none;
@@ -44,9 +41,6 @@ header {
     grid-column-gap: 40px;
     align-items: center;
     justify-items: center;
-
-    /* border: 1px dashed; */
-
 }
 .header-title {
     font-size: 50px;
@@ -76,15 +70,27 @@ header {
 .header-img:hover .animation-3 {
     transform: scale(1.15);
 }
+.top {
+    margin-top: 100px;
+    opacity: .3;
+}
+.bottom {
+    opacity: .3;
+}
+.svg-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.illustration {
+    margin: 36px 20px;
+}
 /* ----------------------------- */
 
 .header-text {
     margin-top: 10px;
     font-weight: 700;
     opacity: .8;
-
-    /* border: 1px dashed; */
-
 }
 button {
     margin-top: 20px;
@@ -173,9 +179,6 @@ main {
     grid-column-gap: 50px;
     align-items: center;
     margin-top: 100px;
-
-    border: 1px dashed;
-
 }
 .custom img {
     max-width:100%
@@ -237,8 +240,6 @@ footer {
     margin-left: 10px;
     background-color: rgba(0, 0, 0, 0.534);
     border-radius: 50%;
-    
-    /* border: 1px solid white; */
 }
 /* ------------------------------------------------------- */
 /* ------------------
