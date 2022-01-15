@@ -119,6 +119,11 @@ main {
     color: #5E6366;
     font-size: 14px;
 }
+.more-products {
+    text-align: end;
+    color: #E02C6DDE;
+    margin-top: 50px;
+}
 /* ---------
     footer  
 -----------*/
