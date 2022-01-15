@@ -24,7 +24,7 @@ button {
 button:hover {
     background-color: black;
     color: white;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 5px black;
 }
 /* ---------- 
 header
@@ -131,7 +131,7 @@ footer {
 .footer-details {
     margin-top: 25px;
 }
-.footer-text .f-text, .footer-icon {
+.footer-text .f-text, .f-icon {
     font-size: 14px;
     color: #D9DBE1;
 }
