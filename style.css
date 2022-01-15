@@ -143,7 +143,7 @@ main {
     align-items: center;
     margin-top: 100px;
 
-    /* border: 1px dashed; */
+    border: 1px dashed;
 }
 .custom img {
     max-width:100%
@@ -223,8 +223,7 @@ footer {
     }
     /* custom helpline  */
     .custom-helpline {
-        display:flex;
-        flex-direction:column;
+        grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 50px;
     }
     /* -----------
