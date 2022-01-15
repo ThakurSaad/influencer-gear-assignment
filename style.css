@@ -155,8 +155,11 @@ main {
     margin: 15px 0;
     font-weight: 600;
 }
+.helpline .custom-helpline-heading {
+    margin-top: 40px;
+}
 .helpline img {
-    max-width: 100%;
+    width: 310px;
 }
 /* ---------
     footer  
@@ -226,6 +229,9 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 50px;
     }
+    .helpline .custom-helpline-heading {
+        margin-top: 0px;
+    }    
     /* -----------
         footer 
     ------------ */
