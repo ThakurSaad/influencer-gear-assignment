@@ -27,6 +27,7 @@ button:hover {
     color: white;
     box-shadow: 0 0 10px black;
 }
+/* ------------------------------------------------------- */
 /* ---------- 
 header
 ---------- */
@@ -91,6 +92,7 @@ button {
 .header-img img {
     width: 100%;
 }    
+/* ------------------------------------------------------- */
 /* -------------
     main 
 -------------- */
@@ -161,6 +163,7 @@ main {
     text-align: end;
     padding-right: 10px;
 }
+/* ------------------------------------------------------- */
 /* ----------------------
     custom helpline (bonus)
 ---------------------- */
@@ -190,6 +193,7 @@ main {
 .helpline img {
     width: 300px;
 }
+/* ------------------------------------------------------- */
 /* ---------
     footer  
 -----------*/
@@ -236,12 +240,13 @@ footer {
     
     /* border: 1px solid white; */
 }
+/* ------------------------------------------------------- */
 /* ------------------
-    mobile layout 
+mobile layout 
 ------------------- */
 @media screen and (max-width:668px) {
     /* -------------
-        header 
+    header 
     -------------- */
     header {
         width: 100%;
@@ -252,7 +257,7 @@ footer {
         grid-row-gap: 50px;
     }
     /* ---------
-        main 
+    main 
     ---------- */
     .products {
         grid-template-columns: repeat(1, 1fr);
@@ -272,6 +277,9 @@ footer {
         width: 100%;
     }
 }
+/* -------------------
+tablet layout 
+--------------------- */
 @media screen and (min-width:669px) and (max-width:990px) {
     .header-body {
         grid-template-columns: repeat(1,1fr);
@@ -288,3 +296,4 @@ footer {
         margin-top: 0px;
     } 
 }
+/* ------------------------------------------------------- */
