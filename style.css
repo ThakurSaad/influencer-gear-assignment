@@ -29,11 +29,37 @@ button:hover {
 header
 ---------- */
 header {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 .header-menu {
     margin: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-title {
+    margin-left: 60px;
+}
+.navigation-menu {
+    display: flex;
+}
+.navigation-menu li {
+    list-style-type: none;
+    margin: 0 0;
+}
+.navigation-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 10px;
+    transition: .3s;
+}
+.navigation-menu li a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 .header-body {
     display: grid;
@@ -41,6 +67,7 @@ header {
     grid-column-gap: 40px;
     align-items: center;
     justify-items: center;
+    margin: 0 60px;
 }
 .header-title {
     font-size: 50px;
@@ -75,6 +102,10 @@ header {
 }
 .top, .bottom {
     opacity: .3;
+}
+.top, .icons, .bottom {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .svg-icons {
     display: flex;
@@ -295,5 +326,28 @@ tablet layout
     .helpline .custom-helpline-heading {
         margin-top: 0px;
     } 
+}
+@media screen and (max-width:1000px) {
+    .header-menu {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10px;
+    }
+    .menu-title {
+        order: 2;
+    }
+    .navigation-menu{
+        box-sizing: border-box;
+        order: 1;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        margin-bottom: 50px;
+        background-color: #B9345A;
+        border-radius: 5px;
+    }
+    .navigation-menu a {
+        display: block;
+    }
 }
 /* ------------------------------------------------------- */
