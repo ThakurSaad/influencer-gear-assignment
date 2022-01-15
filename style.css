@@ -72,9 +72,8 @@ header {
 }
 .top {
     margin-top: 100px;
-    opacity: .3;
 }
-.bottom {
+.top, .bottom {
     opacity: .3;
 }
 .svg-icons {
