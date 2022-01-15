@@ -42,7 +42,8 @@ header {
     grid-column-gap: 100px;
     align-items: center;
     justify-items: center;
-    border: 1px dashed;
+    
+    /* border: 1px dashed; */
 }
 .header-title {
     font-size: 50px;
@@ -68,8 +69,9 @@ main {
     popular collection 
 --------------------- */
 .products-related {
-    border: 1px dashed;
     margin-top: 100px;
+
+    /* border: 1px dashed; */
 }
 .products-heading {
     font-size: 24px;
@@ -135,7 +137,8 @@ main {
     justify-items: center;
     align-items: center;
     margin-top: 100px;
-    border: 1px dashed;
+
+    /* border: 1px dashed; */
 }
 .custom-helpline .custom-helpline-heading, .custom-helpline-text {
     opacity: .9;
@@ -182,6 +185,7 @@ footer {
     margin-top: 5px;
     margin-left: 10px;
     background-color: rgba(0, 0, 0, 0.534);
-    /* border: 1px solid white; */
     border-radius: 50%;
+    
+    /* border: 1px solid white; */
 }
