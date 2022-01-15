@@ -1,8 +1,7 @@
 /* ----------------
     google fonts 
 ----------------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik+Beastly&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -53,6 +52,31 @@ header {
     font-weight: 800;
     opacity: .8;
 }
+/* ----------------------------- */
+    /* required animations  */
+.animation-1 {
+    display: inline-block;
+    transition: transform 1s;
+}
+.header-details:hover .animation-1 {
+    transform: scale(1.05) rotateX(360deg);
+}
+.animation-2 {
+    display: inline-block;
+    transition: transform .7s linear .9s;
+}
+.header-details:hover .animation-2 {
+    transform: scale(1.05) rotateX(-360deg);
+}
+.animation-3 {
+    display: inline-block;
+    transition: transform .5s;
+}
+.header-img:hover .animation-3 {
+    transform: scale(1.15);
+}
+/* ----------------------------- */
+
 .header-text {
     margin-top: 10px;
     font-weight: 700;
@@ -143,8 +167,7 @@ main {
 .custom-helpline {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 200px;
-    justify-items: center;
+    grid-column-gap: 50px;
     align-items: center;
     margin-top: 100px;
 
@@ -183,12 +206,19 @@ footer {
 .footer-details {
     margin-top: 25px;
 }
+.f-heading {
+    font-family: 'Lobster', cursive;
+}
+.f-color-change {
+    color: #B9345A;
+}
 .footer-text .f-text, .f-icon {
     font-size: 14px;
     color: #D9DBE1;
 }
 .f-text>a {
     text-decoration: none;
+    color: #B9345A;
 }
 .f-text>a:hover {
     text-decoration: underline;
@@ -242,8 +272,9 @@ footer {
         width: 100%;
     }
 }
-@media screen and (min-width:669px) and (max-width:900px) {
+@media screen and (min-width:669px) and (max-width:990px) {
     .header-body {
+        grid-template-columns: repeat(1,1fr);
         grid-column-gap: 0;
     }
     .products {
