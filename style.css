@@ -42,7 +42,7 @@ header {
     grid-column-gap: 100px;
     align-items: center;
     justify-items: center;
-    /* border: 1px solid; */
+    border: 1px dashed;
 }
 .header-title {
     font-size: 50px;
@@ -54,7 +54,7 @@ header {
     font-weight: 700;
     opacity: .8;
 }
-header button {
+button {
     margin-top: 20px;
 }
 /* -------------
@@ -69,6 +69,7 @@ main {
 --------------------- */
 .products-related {
     border: 1px dashed;
+    margin-top: 100px;
 }
 .products-heading {
     font-size: 24px;
@@ -123,6 +124,28 @@ main {
     text-align: end;
     color: #E02C6DDE;
     margin-top: 50px;
+}
+/* ----------------------
+    custom helpline 
+---------------------- */
+.custom-helpline {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 200px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 1px dashed;
+}
+.custom-helpline .custom-helpline-heading, .custom-helpline-text {
+    opacity: .9;
+}
+.ch-text {
+    margin: 15px 0;
+    font-weight: 600;
+}
+.helpline img {
+    width: 400px;
 }
 /* ---------
     footer  
