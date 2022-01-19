@@ -347,14 +347,12 @@ tablet layout
         text-align: center;
         margin-bottom: 50px;
         background-color: #B9345A;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
     }
     .navigation-menu a {
         display: block;
     }
-    .shopping-cart {
-        margin-left: 160px;
+    .fa-shopping-cart {
+        margin-left: 55px;
     }
 }
 /* ------------------------------------------------------- */
